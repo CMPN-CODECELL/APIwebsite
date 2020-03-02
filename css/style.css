@@ -154,7 +154,9 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
 }
-
+.ves  {
+  display:hidden  !important;
+}
 #header.header-scrolled,
 #header.header-fixed {
   background: rgba(6, 12, 34, 0.9);
@@ -1536,11 +1538,36 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ddd;
 }
 
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
+.veslogo {
+  position: relative;
+  width:40%;
+   height:auto; 
+}
+
+@media (max-width: 776px) {
+  #intro {
+    height: 150vh !important;
+    position: relative;
+  }
+  
+  .veslogo {
+    position: relative;
+    width:40%;
+     height:auto ;
+  }
+  #ves img{
+
+  }
+}
 
 @media (min-width: 767px) {
+
+
+  
   #subscribe input {
     min-width: 400px;
   }
@@ -1567,7 +1594,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (min-width: 1024px) {
   #intro {
-    background-attachment: fixed;
+    background-attachment:fixed;
   }
 
   #about {
@@ -1592,7 +1619,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 991px) {
   #header {
     background: rgba(6, 12, 34, 0.98);
-    height: 70px;
+    height: auto;
     padding: 15px 0;
     transition: all 0.5s;
   }

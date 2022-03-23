@@ -1,2 +1,3 @@
-# wetechideathon.github.io
-site of wetech ideathon vesit
+# Chai API Charcha
+## API DEVELOPMENT COMPETITION 
+
